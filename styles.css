@@ -50,6 +50,13 @@ border: none;
 margin-top: 30px;
 
 }
+.heading{
+    color: rgb(0, 0, 0);
+
+font-size: 2.875rem;
+font-weight: 700;
+text-align: center;
+}
 
 /* shared styles ends here  */
 
@@ -65,7 +72,7 @@ margin-top: 30px;
     color: rgb(17, 17, 17);
 }
 .navbar{
-    border: 1px solid red;
+    
     justify-content: space-between;
 
     
@@ -125,7 +132,7 @@ margin-right: 32px;
 }
 
 .banner{
-    border: 1px solid red;
+   
     align-items: center;
 }
 .banner-h{
@@ -138,9 +145,85 @@ margin-right: 32px;
 .banner-h-t{
     color: rgb(1, 172, 253);
 }
+.hr{
+    display: none;
+}
+
 
 
 /* styles for header part ends  here  */
+
+
+/* style for  curriculum  section starts here  */
+
+
+.curriculum{
+    background-image: url('assets/bg.png');
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+   
+
+}
+.card{
+   
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    padding: 65px 35px 65px 35px;
+}
+.card-title{
+    color: rgb(32, 32, 32);
+    font-weight: 700;
+    margin-top: 15px;
+}
+.card-holder{
+    gap: 40px;
+    margin-top: 80px;
+}
+.cbtn{
+    font-weight: 700;
+    font-size: 1rem;;
+    color: rgb(100, 200, 255);
+    margin-top: 20px;
+}
+.cr2{
+    color: rgb(240, 170, 0);
+}
+.c2{
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.c3{
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.cr3{
+    color: rgb(135, 0, 255);
+}
+.less-than{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: rgb(254, 163, 1);
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+.icon-holder{
+    justify-content: center;
+    gap: 5px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    
+}
+
+/* style for  curriculum  section ends  here  */
 
 
 /* styles for small device starts here  */
@@ -169,6 +252,25 @@ margin-right: 32px;
 .banner-title{
     text-align: center;
 }
+.hr{
+    display: block;
+    height: 3px;
+    background-color: rgb(254, 163, 1);
+}
+.card-holder{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.card{
+   
+    margin: 15px;
+
+}
+.icon-holder{
+    display: none;
+}
+
+
 
 
 /* .header{
