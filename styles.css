@@ -1,0 +1,135 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+.font-family {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+
+
+/* shared styles starts here  */
+
+.display-flex{
+    display: flex;
+}
+.make-center{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.m-top{
+    margin-top: 120px;
+}
+
+/* shared styles ends here  */
+
+/* styles for header part starts here  */
+.school-logo{
+   
+    align-items: center;
+   
+}
+.school{
+   font-weight: 700;
+   font-size: 2rem;
+    color: rgb(17, 17, 17);
+}
+.navbar{
+    border: 1px solid red;
+    justify-content: space-between;
+
+    
+}
+.home{
+    color: rgb(254, 163, 1);
+
+font-size: 1.25rem;
+font-weight: 700;
+    margin-left: 32px;
+}
+
+.About{
+    color: rgb(1, 172, 253);
+
+font-size: 1.25rem;
+font-weight: 500;
+margin-left: 32px;
+}
+
+.Facilities{
+    color: rgb(5, 212, 223);
+
+font-size: 1.25rem;
+font-weight: 500;
+margin-left: 32px;
+
+}
+.Admission{
+    color: rgb(93, 88, 239);
+
+font-size: 1.25rem;
+font-weight: 500;
+margin-left: 32px;
+margin-right: 32px;
+
+}
+.nav-items{
+    align-items: center;
+}
+.contact{
+    font: size 1.25em;;
+    font-weight: 600;
+    padding: 6px 14px 6px 14px;
+    border-radius: 10px;
+    background: rgb(254, 163, 1);
+    align-items: center;
+    color: white;
+  
+}
+.con{
+    
+    align-items: center;
+}
+.menu{
+    display: none;
+}
+/* styles for header part ends  here  */
+
+
+/* styles for small device starts here  */
+@media screen and (max-width: 576px) {
+
+    body{
+        border: 1px solid red;
+    }
+
+ .school, .nav-items, .con
+{
+    display: none;
+} 
+
+.menu{
+    display: block;
+    margin-top:25px ;
+    margin-right: 10px;
+    
+    
+    
+}
+
+/* .header{
+    max-width: 550px;
+    margin: 0 auto;
+} */
+}
+
+
+/* styles for small device ends here  */
