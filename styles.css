@@ -159,7 +159,6 @@ margin-right: 32px;
 
 .curriculum{
     background-image: url('assets/bg.png');
-    height: 600px;
     background-size: cover;
     background-position: center;
    
@@ -219,11 +218,125 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
     justify-content: center;
     gap: 5px;
     margin-top: 80px;
-    margin-bottom: 80px;
+   
     
 }
 
 /* style for  curriculum  section ends  here  */
+
+/* style for stories section starts here */
+
+.stories{
+ 
+    background: url('assets/bg.png'),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    background-size: cover;
+}
+
+.story-banner{
+    
+   
+}
+
+.story-card{
+    border-radius: 16px;
+
+background: rgb(255, 255, 255);
+
+flex-direction: column;
+/* width: 50%; */
+/* height: 100%; */
+
+}
+.img-holder img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px 16px 0px 0px;
+
+}
+.card-description{
+    
+    padding: 40px;
+}
+.story-date-btn{
+
+    color: rgb(255, 255, 255);
+
+font-size: 1rem;
+font-weight: 500;
+border-radius: 47.93px;
+
+background: rgb(60, 216, 232);
+border: none;
+padding: 15px 20px ;
+
+}
+.story-date{
+    position: relative;
+   
+    left: 10%;
+    bottom: 30px;
+}
+
+.story-card{
+   
+}
+
+.m-card{
+    display: grid;
+    grid-template-columns: 2.5fr 4fr;
+    gap: 20px;
+}
+.card2{
+    border: 3px solid rgb(0, 34, 255);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1 fr;
+    /* grid-template-columns: 400px 400px;
+    grid-template-rows: 400px 400px; */
+    gap: 5px;
+    
+}
+
+.ar-p{
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-align: center;
+    
+    padding: 0px ;
+}
+.ar-card{
+    background-color: white;
+    border-radius: 16px ;
+    flex-direction: column;
+}
+.ar-card .ar-img img {
+    height: 100%;
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.ar-date-btn{
+    color: rgb(255, 255, 255);
+
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-radius: 47.93px;
+    
+    background: rgb(149, 178, 38);
+    border: none;
+    padding: 15px 20px ;
+
+}
+.ar-date{
+    position: relative;
+   
+    left: 10%;
+    bottom: 25px;
+}
+
+
+
+/* style for stories section ends here */
 
 
 /* styles for small device starts here  */
