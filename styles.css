@@ -178,7 +178,9 @@ margin-right: 32px;
 .card-title{
     color: rgb(32, 32, 32);
     font-weight: 700;
-    margin-top: 15px;
+    margin-top: -44px;
+    margin-bottom: 0px;
+   
 }
 .card-holder{
     gap: 40px;
@@ -230,6 +232,8 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
  
     background: url('assets/bg.png'),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
     background-size: cover;
+    /* margin-bottom: 60px; */
+    padding-bottom: 1px;
 }
 
 .story-banner{
@@ -283,17 +287,25 @@ padding: 15px 20px ;
 
 .m-card{
     display: grid;
-    grid-template-columns: 2.5fr 4fr;
-    gap: 20px;
+    grid-template-columns: 1fr 1.4fr;
+    
+    gap: 30px;
+    
+    margin-top: 80px;
+    
+
 }
+
 .card2{
-    border: 3px solid rgb(0, 34, 255);
+    /* border: 3px solid rgb(0, 34, 255); */
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1 fr;
     /* grid-template-columns: 400px 400px;
     grid-template-rows: 400px 400px; */
-    gap: 5px;
+    gap: 20px;
+    
+    
     
 }
 
@@ -301,18 +313,24 @@ padding: 15px 20px ;
     font-size: 0.9rem;
     font-weight: 700;
     text-align: center;
-    
-    padding: 0px ;
+    padding-bottom: 20px;
+    padding-top: 0px;
+}
+.cp{
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 .ar-card{
     background-color: white;
     border-radius: 16px ;
     flex-direction: column;
+    
 }
 .ar-card .ar-img img {
     height: 100%;
     width: 100%;
     border-radius: 16px 16px 0px 0px;
+    
 }
 
 .ar-date-btn{
@@ -333,6 +351,20 @@ padding: 15px 20px ;
     left: 10%;
     bottom: 25px;
 }
+.arb2{
+    background-color: rgb(93, 88, 240);
+}
+
+.btnv{
+    padding:10px 25px 10px 25px ;
+    
+}
+.h-btnv{
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    
+}
 
 
 
@@ -346,7 +378,11 @@ padding: 15px 20px ;
         border: 1px solid red;
     }
 
- .school, .nav-items, .con
+    .card1,.m-card{
+        all: unset;
+    }
+
+ .school, .nav-items, .con, .card1
 {
     display: none;
 } 
@@ -382,6 +418,23 @@ padding: 15px 20px ;
 .icon-holder{
     display: none;
 }
+.story-banner
+{
+    margin: 10px;
+ 
+    
+}
+.h-m{
+  
+    margin-bottom: 30px;
+}
+.stories{
+    
+    margin-top: 80px;
+}
+
+
+
 
 
 
