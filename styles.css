@@ -45,13 +45,14 @@ margin-top: 20px;
     border-radius: 12px;
 
  background: rgb(17, 17, 17);
- padding: 10px;
+
  color: rgb(255, 255, 255);
 
 font-size: 1.25rem;
 font-weight: 700;
 border: none;
 margin-top: 30px;
+padding:15px 40px 15px 40px ;
 
 }
 .heading{
@@ -125,7 +126,7 @@ margin-right: 32px;
 .contact{
     font: size 1.25em;;
     font-weight: 600;
-    padding: 6px 14px 6px 14px;
+    padding: 10px 25px 10px 25px;
     border-radius: 10px;
     background: rgb(254, 163, 1);
     align-items: center;
@@ -414,6 +415,7 @@ font-weight: 700;
 font-weight: 400;
 
 text-align: left;
+margin-top: 35px;
 }
 .ab-school{
     color: rgb(255, 255, 255);
@@ -562,6 +564,12 @@ font-size: 1.5rem;
 nav{
     margin-top: 15px;
     
+}
+
+footer {
+   
+    padding: 50px;
+   
 }
 
 }
