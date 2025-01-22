@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid red; */
+   
 }
 .font-family {
   font-family: "Quicksand", serif;
@@ -374,7 +374,7 @@ padding: 15px 20px ;
 /* style for footer starts here */
 
 footer{
-    height: 500px;
+   
     background-color: rgb(1, 172, 253);
     padding: 120px;
     
@@ -448,7 +448,7 @@ flex-direction: column;
 @media screen and (max-width: 576px) {
 
     body{
-        border: 1px solid red;
+        
     }
 
     .card1,.m-card{
@@ -505,6 +505,17 @@ flex-direction: column;
     
     margin-top: 80px;
 }
+.f-body{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+    justify-items: normal;
+    justify-content: center;
+    grid-row-gap: 60px;
+}
+
+
 
 
 
