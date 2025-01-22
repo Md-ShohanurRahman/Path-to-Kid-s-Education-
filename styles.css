@@ -444,6 +444,35 @@ flex-direction: column;
 /* style for footer ends  here */
 
 
+/* style for creative section starts here  */
+
+.creative {
+   
+   margin-top: 80px;
+
+    
+}
+.creative-h{
+    padding: 15px 40px 15px 40px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgba(225, 239, 255, 0.93),rgba(207, 228, 216, 0.43) 40%),rgba(171, 229, 217, 0.882);
+
+border-radius: 12px;
+color: rgb(6, 110, 247);
+font-weight: 700;
+font-size: 1.5rem;
+}
+
+.wel{
+    color: orange;
+   
+}
+
+
+
+/* style for creative section ends  here  */
+
+
 /* styles for small device starts here  */
 @media screen and (max-width: 576px) {
 
@@ -514,6 +543,12 @@ flex-direction: column;
     justify-content: center;
     grid-row-gap: 60px;
 }
+.creative{
+    margin: 10px;
+}
+
+
+
 
 
 
