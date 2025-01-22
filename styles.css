@@ -361,14 +361,87 @@ padding: 15px 20px ;
 }
 .h-btnv{
     justify-content: center;
-    margin-bottom: 40px;
-    margin-top: 20px;
+    margin-bottom: 60px;
+    margin-top: 40px;
     
 }
 
 
 
 /* style for stories section ends here */
+
+
+/* style for footer starts here */
+
+footer{
+    height: 500px;
+    background-color: rgb(1, 172, 253);
+    padding: 120px;
+    
+}
+.f-body{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   justify-items: center;
+
+}
+
+.edu-m-c-p{
+    color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 2.6rem;
+font-weight: 700;
+}
+.edu-m-c{
+    align-items: center;
+}
+
+.edu-m-c img{
+    height: 100%;
+    
+}
+.edu-p{
+    color: rgb(255, 255, 255);
+font-weight: 400;
+
+text-align: left;
+}
+.ab-school{
+    color: rgb(255, 255, 255);
+
+
+font-weight: 500;
+line-height: 25px;
+
+text-align: left;
+flex-direction: column;
+
+}
+.ab-school-i{
+    margin-bottom: 25px;
+}
+
+.a-s{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.k-i-p{
+    color: white;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+
+.k-icon{
+    gap: 5px;
+
+    margin-top: 20px;
+}
+
+
+
+/* style for footer ends  here */
 
 
 /* styles for small device starts here  */
