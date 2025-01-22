@@ -246,10 +246,7 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
     padding-bottom: 1px;
 }
 
-.story-banner{
-    
-   
-}
+
 
 .story-card{
     border-radius: 16px;
@@ -291,9 +288,7 @@ padding: 15px 20px ;
     bottom: 30px;
 }
 
-.story-card{
-   
-}
+
 
 .m-card{
     display: grid;
@@ -487,9 +482,7 @@ font-size: 1.5rem;
 /* styles for small device starts here  */
 @media screen and (max-width: 576px) {
 
-    body{
-        /* border: 4px solid red; */
-    }
+   
 
     .card1,.m-card{
         all: unset;
